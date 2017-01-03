@@ -24,11 +24,12 @@ let router = new VueRouter({
 
 /* eslint-disable no-new */
 let Pizzap = Vue.component('app', App)
-let vm = new Pizzap({
+/* let vm = */ new Pizzap({
   el: '#app',
   router
 })
 
+/*
 router.beforeEach((to, from, next) => {
   Vue.nextTick(() => {
     let mainContent = document.querySelector('.main-content')
@@ -42,4 +43,5 @@ router.beforeEach((to, from, next) => {
     next()
   })
 })
+*/
 
